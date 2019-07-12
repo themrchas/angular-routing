@@ -16,7 +16,7 @@ const sitesRoutes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    RouterModule.forChild(sitesRoutes)
+    RouterModule.forChild(sitesRoutes) //siteRoutes defined above
   ],
   exports: [
     RouterModule

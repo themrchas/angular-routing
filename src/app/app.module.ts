@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 
 import { SitesModule } from './sites/sites.module';
 
-
+//This example essentially shoves the routing behvior into a completely differnet module (sites.module.ts) and imports that module.
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { SitesModule } from './sites/sites.module';
   imports: [
     BrowserModule,
     SitesModule,
-    AppRoutingModule,
+    AppRoutingModule
   
     
   

@@ -6,6 +6,8 @@ import { Site1Component } from './site1/site1.component';
 import { Site2Component } from './site2/site2.component';
 import { Site3Component } from './site3/site3.component';
 
+//This module 'packages' up everything and can then be imported by app.modules.ts
+
 
 @NgModule({
   declarations: [
